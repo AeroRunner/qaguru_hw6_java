@@ -5,6 +5,7 @@ public class Main {
        int a = 15;
        int b = 16;
        String c = "Число такое е то";
+
        int d = a + b;
         System.out.println(c +" "+ d);
         System.out.println("Resilt");

@@ -30,17 +30,59 @@ public class Main {
     System.out.println("C больше или равно D? Ответ:" +(cInt>=dInt));
     System.out.println("С меньше или равно D? Ответ:"+(cInt<=dInt));
 
-    int income = 100000;
-    int age = 21;
-    int creditRate = 80;
-    if (age>=21){
-      if (income>100000);
-      if (creditRate>=80);
-      System.out.println("Вы подходите под условия кредитования!");
+    int income = 160000;
+    int age = 18;
+    int creditRate = 97;
+    String solution;
+    if (age>=21 && income>=100000 && creditRate>=80 ) {
+      solution = "Кредит одобрен!";
+      System.out.println(solution);
     }
+     else if (income<100000 ||  age < 21 || creditRate<80){
+      solution = "Отказано в кредите(";
+      System.out.println(solution);
+     }
+
+     int ticket = 3 ;
+     int box = 500000;
+     String message ="Ваш лотырейный билет попадает в категорию до ";
+     switch (ticket){
+         case 1:
+         case 2:
+         case 3:
+             box = 300000;
+             break;
+         case 4:
+         case 5:
+         case 6:
+         case 7:
+             box = 50000;
+             break;
+         case 8:
+             box = 1000000;
+             break;
+         case 9:
+         case 10:
+             box = 400000;
+     }
+      System.out.println(message+box);
+
+      byte aByte = 127;
+      byte bByte = -1;
+      byte overByte = (byte) (aByte - bByte);
+      System.out.println("Переполнение вычисление типа данных byte: " + overByte);
+      int intBorder = Integer.MAX_VALUE;
+      int intOver = intBorder;
+      intOver++;
+      System.out.println("Переполнение вычисления типа данных int: " + intOver);
+
+      int eInt = 17512;
+      double aDouble = 19.3;
+
 
 
   }
+
 }
 
 

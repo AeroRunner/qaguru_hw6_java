@@ -76,8 +76,20 @@ public class Main {
       intOver++;
       System.out.println("Переполнение вычисления типа данных int: " + intOver);
 
+      System.out.println("Даны числа E и F" +"\n" + "E=17512 и F=19.3");
       int eInt = 17512;
       double aDouble = 19.3;
+      double dSum = eInt + aDouble;
+      double dSub = eInt - aDouble;
+      double dDiv = eInt / aDouble;
+      double dMult = eInt * aDouble;
+      int lastResult = (int)(dDiv + dSum);
+      System.out.println("Ответы с остатком: "+"\n"
+              +"Сложение E и F: "+dSum+"\n"
+              +"Вычитание F из E: "+dSub+"\n"
+              +"Деление E на F: "+dDiv+"\n"
+              +"Умножение E на F: "+dMult+"\n"
+              +"Сумма дробных числе в виде int без остатка: " +lastResult);
 
 
 

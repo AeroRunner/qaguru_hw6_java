@@ -7,6 +7,7 @@ public class Main {
        String c = "Число";
        int d = a + b;
         System.out.println(c +" "+ d);
+        System.out.println("Resilt");
 
     }
 }

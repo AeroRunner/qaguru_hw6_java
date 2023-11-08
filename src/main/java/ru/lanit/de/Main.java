@@ -1,17 +1,16 @@
 package ru.lanit.de;
 // master
 public class Main {
-    public static void main(String[] args){
-       int a = 15;
-       int b = 16;
-       String c = "Число такое е то";
-       int d = a + b;
-        System.out.println(c +" "+ d);
+  public static void main(String[] args) {
+    int aInt = 666;
+    int bInt = 8888;
+    int multiplication = aInt * bInt;
+    int division = aInt / bInt;
+    int addition = aInt + bInt;
+    int subtraction = bInt - aInt;
+    int
 
-
-        System.out.println("Resilt");
-        String strToBePrinted = "Hello world!";
-        System.out.println(strToBePrinted);
-
-    }
+  }
 }
+
+

@@ -8,7 +8,7 @@ public class Main {
     int division = aInt / bInt;
     int addition = aInt + bInt;
     int subtraction = bInt - aInt;
-    int
+    int remainder = bInt % aInt;
 
   }
 }

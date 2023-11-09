@@ -30,6 +30,8 @@ public class Main {
     System.out.println("C больше или равно D? Ответ:" +(cInt>=dInt));
     System.out.println("С меньше или равно D? Ответ:"+(cInt<=dInt));
 
+
+      System.out.println("Рассчет одобрения кредита исходя из возраста, зарплаты и рейтинга:");
     int income = 160000;
     int age = 18;
     int creditRate = 97;
@@ -42,7 +44,7 @@ public class Main {
       solution = "Отказано в кредите(";
       System.out.println(solution);
      }
-
+     System.out.println("В какую категорию розыгрыша попадает номер лотырейного билета:");
      int ticket = 3 ;
      int box = 500000;
      String message ="Ваш лотырейный билет попадает в категорию до ";
@@ -67,10 +69,12 @@ public class Main {
      }
       System.out.println(message+box);
 
+      System.out.println("Даны 2 числа типа byte: G и H"+"\n"+"G = 127 и H = -1");
       byte aByte = 127;
       byte bByte = -1;
       byte overByte = (byte) (aByte - bByte);
       System.out.println("Переполнение вычисления типа данных byte: " + overByte);
+      System.out.println("Дано число 1го из максимальных значений типа int, к нему добавим 1 единицу");
       int intBorder = Integer.MAX_VALUE;
       int intOver = intBorder;
       intOver++;

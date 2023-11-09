@@ -85,11 +85,11 @@ public class Main {
       double dMult = eInt * aDouble;
       int lastResult = (int)(dDiv + dSum);
       System.out.println("Ответы с остатком: "+"\n"
-              +"Сложение E и F: "+dSum+"\n"
-              +"Вычитание F из E: "+dSub+"\n"
-              +"Деление E на F: "+dDiv+"\n"
-              +"Умножение E на F: "+dMult+"\n"
-              +"Сумма дробных числе в виде int без остатка: " +lastResult);
+              +"Сложение E и F: "+ dSum +"\n"
+              +"Вычитание F из E: "+ dSub +"\n"
+              +"Деление E на F: "+ dDiv +"\n"
+              +"Умножение E на F: "+ dMult +"\n"
+              +"Сумма дробных числе в виде int без остатка: " + lastResult);
 
                     }
 

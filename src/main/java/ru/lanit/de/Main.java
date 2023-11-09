@@ -70,7 +70,7 @@ public class Main {
       byte aByte = 127;
       byte bByte = -1;
       byte overByte = (byte) (aByte - bByte);
-      System.out.println("Переполнение вычисление типа данных byte: " + overByte);
+      System.out.println("Переполнение вычисления типа данных byte: " + overByte);
       int intBorder = Integer.MAX_VALUE;
       int intOver = intBorder;
       intOver++;
